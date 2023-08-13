@@ -13,10 +13,7 @@ def decimal_to_binary(decimal, length):
             i += 1
             
         if i < len(bits):
-            bits[i] = 1
             i += 1
-        elif i + 1 < length:
-            bits.append(1)
         
         while i < len(bits):
             bits[i] = 1 - bits[i]
