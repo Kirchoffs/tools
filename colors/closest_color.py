@@ -37,6 +37,8 @@ def get_cielab_diff(target, current):
 
 color_input = input('Input the color hex value with 6 digits: ')
 color_input = color_input.replace('#', '')
+if len(color_input) == 3:
+    color_input = ''.join([v * 2 for v in color_input])
 input_rgb = [hex(color_input[i: i + 2]) for i in range(0, len(color_input), 2)]
 color_map = {}
 

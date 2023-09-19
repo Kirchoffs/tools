@@ -1,0 +1,16 @@
+{
+    "abaxial": {
+        "type": "adjective",
+        "description": "the side away from the axis",
+        "notes": [
+            "the adaxial and abaxial sides correspond to the upper and lower sides of the leaf and to the inner and outer sides of the floral organs respectively"
+        ]
+    },
+    "adaxial": {
+        "type": "adjective",
+        "description": "the side towards the axis",
+        "notes": [
+            "the adaxial and abaxial sides correspond to the upper and lower sides of the leaf and to the inner and outer sides of the floral organs respectively"
+        ]
+    }
+}
